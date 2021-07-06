@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>University Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="blogs.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+
+	</section>
+<!--------Contact Us Content----------->
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3531.8718268146267!2d85.37118662927782!3d27.721243432870427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d27.7213767!2d85.37347489999999!4m5!1s0x39eb1bc7ae0d085f%3A0xb26a427980fa6751!2sJorpati%2C%20Kathmandu%2044600!3m2!1d27.721104399999998!2d85.37326499999999!5e0!3m2!1sen!2snp!4v1625557959987!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		
+	</section>
+
+
+<!----------------------Contact form--------------->
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-us-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>Jorpati-Boudha Road</h5>
+						<p>Kathmandu, Nepal</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+977 9800000000</h5>
+						<p>Email us for your query</p>
+					</span>
+				</div>
+				
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>Kshitiz.37@gmail.com</h5>
+						<p>Email us for your query</p>
+					</span>
+				</div>
+				
+				
+			</div>
+			<div class="contact-us-col">
+				<form action="formhandeler.php" method="post">
+					<input type="text" name="name" placeholder="Enter your name*" required>
+					<input type="email" name="email" placeholder="Enter your email address*" required>
+					<input type="text" name="subject" placeholder="Enter your subject*" required>
+					<textarea rows="8" name="message" placeholder="Message*" required></textarea>
+					<button type="submit" class="hero-btn red-btn">Send Messages</button>
+					
+				</form>
+
+
+			</div>
+			
+		</div>
+		
+	</section>
+
+
+
+
+<!----------Footer-------->
+	<section class="footer">
+		<h4 class="hero-btn red-btn">NEXT PAGE</h4>
+		<p>It was popularised in the 1960s with the release of<br> Letraset sheets containing Lorem Ipsum passages.</p>
+		<div class="wrapper">
+			<div class="button">
+				<div class="icon">
+					<i class="fa fa-facebook"></i>
+					<span>Facebook</span>
+				</div>
+			</div>	
+			<div class="button">
+				<div class="icon">
+			        <i class="fa fa-whatsapp"></i>
+			        <span>Whatsapp</span>
+			    </div>
+			</div>
+			<div class="button">
+			    <div class="icon">
+			        <i class="fa fa-instagram"></i>
+			        <span>Instagram</span>
+			    </div>
+			</div>
+			<div class="button">
+			    <div class="icon">
+					<i class="fa fa-twitter"></i>
+					<span>Twitter</span>
+				</div>
+			</div>
+			<div class="button">
+			    <div class="icon">
+					<i class="fa fa-youtube"></i>
+					<span>Youtube</span>
+				</div>
+			</div>
+
+		</div>
+		<p>All Right Reserved to Kshitiz Babik</p>
+		
+		
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!----------JavaScript for Toggle Menu---------->	
+
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+		
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+
+
+
+
+</body>
+</html>
