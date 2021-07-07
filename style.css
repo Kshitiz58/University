@@ -311,18 +311,18 @@ h3{
 }
 
 /*-------Footer---------*/
-
 .footer{
 	width: 100%;
 	text-align: center;
 	padding: 5px 0;
 }
-.footer h4{
+.footer h4 a{
 	margin-bottom: 30px;
 	margin-top: 20px;
 	font-weight: 600;
 	color: #37BEB0;
 	font-size: 15px;
+	text-decoration: none;
 
 }
 .wrapper .button{
@@ -394,9 +394,6 @@ h3{
 	}
 
 }
-
-
-
 
 
 /*-----------About Us Page-------------*/
