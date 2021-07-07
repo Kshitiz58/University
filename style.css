@@ -327,20 +327,20 @@ h3{
 }
 .wrapper .button{
 	display: inline-block;
-	height: 60px;
-	width: 60px;
+	height: 40px;
+	width: 40px;
 	margin: 0 5px;
 	text-align: center;
 	overflow: hidden;
 	background: #9BB7D4;
-	border-radius: 50px;
+	border-radius: 30px;
 	cursor: pointer;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease-out;
 
 }
 .wrapper .button:hover{
-	width: 100px;
+	width: 80px;
 }
 .wrapper .button:nth-child(1):hover .icon{
 	background: #4267B2;
@@ -361,23 +361,24 @@ h3{
 
 .wrapper .button .icon{
 	display: inline-block;
-	height: 60px;
-	width: 60px;
-	font-size: 30px;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
 	text-align: centre;
-	border-radius: 50px;
+	border-radius: 30px;
 	box-sizing: border-box;
-	line-height: 60px;
+	line-height: 40px;
+	color: #fff;
 	transition: all 0.3s ease-out;
 }
 .wrapper.button .icon i{
-	font-size: 25px;
-	line-height: 60px;
+	font-size: 30px;
+	line-height: 40px;
 }
 .wrapper .button span{
 	font-size: 20xp;
 	font-weight: 500;
-	line-height: 60px;
+	line-height: 40px;
 	margin-left: 15px;
 }
 .footer p{
@@ -386,6 +387,12 @@ h3{
 	margin-bottom: 15px;
 	margin-top: 10px;
 	font-weight: 400;
+}
+@media(max-width: 700px){
+	.footer .button{
+		font-size: 20px;
+	}
+
 }
 
 
@@ -418,6 +425,7 @@ h3{
 }
 .about-us-col img{
 	width: 100%;
+	border-radius: 5px;
 }
 .about-us-col h1{
 	padding-top: 0;
